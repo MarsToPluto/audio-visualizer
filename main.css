@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #2a2a2a;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 5px;
+  background-color:#242323;
+  padding: 10px;
+}
+
+.taken{
+    background-color: #59ff59;
+    /*/border: 6px solid #343333;/*/
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 16px 0px;
+    transition: 0.2s ease-in;
+    border-radius: 3px;
+}
+.killed {
+    background-color: #ff6959;
+}
+.gone{
+      background-color: #ff6959;
+}
+.food{
+  background-color: #ff6959;
+}
+.greeny{
+  background: #0ffc00;
+}
+.dark-red{
+  background: #b1493e;
+}
+.cloudy{
+  background: #00fcd773;
+}
+.spaceXClouds{
+  background: #00fcf6;
+}
+.laen{
+  background: #d700fc;
+}
+.afterEffect{
+  background: #d700fc91;
+}
+.olive{
+  background: #0ffc0073;
+}
+.scale3d{
+  transform: scale3d(1.5, 1.5, 1.5);
+}
+.skew{
+      transform: skew(10deg, 10deg);
+}
+.rotate3D{
+      transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.rotateZ{
+      transform: rotateZ(45deg);
+}
+
+.translateX{
+      transform: translateX(10px);
+}
+
+.translateY{
+      transform: translateY(10px);
+}
+
+.translateZ{
+      transform: translateZ(10px);
+}

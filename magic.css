@@ -1,0 +1,32 @@
+  .shake {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    /* Animation */
+    animation: shake 0.5s; /* Run the shake animation once for 0.5 seconds */
+    animation-iteration-count: infinite; /* Repeat the animation indefinitely */
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: translateX(10px); }
+  }
+
+
+.shake-fast {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 30px;
+  /* Animation */
+  animation: shake-fast 0.2s; /* Run the shake animation once for 0.2 seconds */
+  animation-iteration-count: infinite; /* Repeat the animation indefinitely */
+}
+
+@keyframes shake-fast {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
